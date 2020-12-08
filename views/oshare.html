@@ -1,0 +1,126 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>1</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="../styles/index.css">
+  <link rel="stylesheet" href="../styles/oshare.css">
+</head>
+<body>
+  <main class="contents">
+    <header>
+      <h1>押したくなるページ</h1>
+      <a href="../index.html">トップへ戻る</a>
+    </header>
+    <div class="item">
+      <div>
+        <button type="button" class="btn btn-outline-primary allow"><span class="allow-icon"></span>button</button>
+      </div>
+      <textarea name="html" id="" cols="30" rows="10">
+<button type="button" class="btn btn-outline-primary allow"><span class="allow-icon"></span>button</button>
+      </textarea>
+      <textarea name="css" id="" cols="30" rows="10">
+.allow {
+  overflow: hidden;
+}
+
+.allow:hover {
+  color: #007bff;
+  background-color: white;
+}
+
+.allow:hover .allow-icon::before {
+  content: "→";
+}
+
+.allow-icon {
+  position: relative;
+  left: -2px;
+}
+
+.allow:hover .allow-icon {
+  position: relative;
+  left: 0;
+  transition: all 0.4s ease;
+  padding-top: 1em;
+}
+      </textarea>
+    </div>
+    
+    <div class="item">
+      <div>
+        <button class="btn_design btn btn-outline-primary"><span>button</span></button>
+      </div>
+      <textarea name="html" id="" cols="30" rows="10">
+<button class="btn_design btn btn-outline-primary"><span>button</span></button>
+      </textarea>
+      <textarea name="css" id="" cols="30" rows="10">
+button.btn_design span {
+  display:inline-block;
+  transition: .5s
+}
+
+button.btn_design:hover span {
+  transform: rotateX(360deg);
+}
+      </textarea>
+    </div>
+    
+    <div class="item">
+      <div>
+        <p class ="rittai btn btn-outline-primary">button</p>
+      </div>
+      <textarea name="html" id="" cols="30" rows="10">
+<p class ="rittai btn btn-outline-primary">button</p>
+      </textarea>
+      <textarea name="css" id="" cols="30" rows="10">
+.rittai:hover {
+  box-shadow: 2px 2px 0 #007bff;
+  transition: all 0.2s ease-out;
+}
+      </textarea>
+    </div>
+    
+    <div class="item">
+      <div>
+        <p class="button1 btn btn-outline-primary">button</p>
+      </div>
+      <textarea name="html" id="" cols="30" rows="10">
+<p class="button1 btn btn-outline-primary">button</p>
+      </textarea>
+      <textarea name="css" id="" cols="30" rows="10">
+.button1:hover{
+  background-color: white;
+  color: #007bff;
+}
+.button1{
+  display: inline-block;
+  text-decoration: none;
+}
+.button1::after {
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: #007bff;
+  transform: scale(0, 1);
+  transform-origin: right top;
+  transition: transform .3s;
+}
+.button1:hover::after {
+  transform-origin: left top;
+  transform: scale(1, 1);
+}
+
+.button1 {
+  transform: translate(0);
+}
+      </textarea>
+    </div>
+  </main>
+
+</body>
+</html>

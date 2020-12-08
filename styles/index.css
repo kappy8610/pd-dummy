@@ -1,0 +1,40 @@
+header {
+  margin: 32px;
+}
+
+body {
+  margin: 2em;
+}
+
+h1 {
+  margin-bottom: 1em;
+}
+
+.contents *:focus {
+  box-shadow: none !important;
+}
+
+.contents .btn-outline-primary:not(:disabled):not(.disabled).active,
+.contents .btn-outline-primary:not(:disabled):not(.disabled):active,
+.contents .show > .btn-outline-primary.dropdown-toggle,
+.contents .btn-outline-primary:hover {
+  color: #007bff;
+  background-color: white;
+}
+
+.item {
+  height: 300px;
+}
+
+.item button, .item textarea, .item p{
+  margin: 0 32px;
+}
+
+.item button, .item p {
+  float: left;
+}
+
+.item textarea{
+  display: inline;
+  width: 400px;
+}

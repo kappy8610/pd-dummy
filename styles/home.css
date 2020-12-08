@@ -1,0 +1,14 @@
+h1 {
+  text-align: center;
+  margin: 32px 0;
+}
+
+p {
+  text-align: center;
+}
+
+.contaier {
+  display: flex;
+  justify-content: space-around;
+  margin: 64px;
+}

@@ -1,0 +1,77 @@
+/* 拡大 */
+.su{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  transition-property: transform;
+}
+.su:hover {
+  font-size: 24px;
+  transition: all 0.2s ease-out;
+}
+.su-outline-primary:hover, .su-outline-primary:active {
+background-color:#fff !important;
+color:#007bff !important;
+}
+.su-outline-primary.focus, .su-outline-primary:focus {
+  box-shadow: 0 0 0 0rem rgba(0,123,255,.5) !important;
+}
+.su.focus, .su:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0rem rgba(0,123,255,.25) !important;
+}
+
+/* 縮小_赤 */
+.sd{
+  background-color: red;
+  color: white;
+  border: solid 1px black;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+}
+
+.sd:hover {
+  font-size: 13px;/*変化前16px*/
+  line-height: 40px;/*変化前50px*/
+  height: 40px;
+  width: 40px;
+  transition: all 0.2s ease-out;
+  cursor: pointer;
+}
+
+/* 影 */
+.hover-1:hover {
+  box-shadow : 0 0 8px black;
+  transition: all 0.2s ease-out;
+}
+
+/* 背景色 */
+.bgc:hover {
+  color: white !important;
+  background-color: #007bff !important;
+}
+
+/* 沈む */
+.down{
+  background-color: red;
+  color: white;
+  border: solid 1px black;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+}
+
+.down:hover {
+  margin-top: 2px;
+}
+
+/* 立体 */
+.rittai:hover {
+  box-shadow: 2px 2px 0 #007bff;
+  transition: all 0.2s ease-out;
+}

@@ -1,0 +1,16 @@
+/* 沈む */
+.down:hover {
+  margin-top: 3px;
+  transition: all 0.2s ease-out;
+}
+
+/* 枠線消える */
+.oln:hover {
+  border: none;
+}
+
+/* 縮小 */
+.sd:hover {
+  font-size: 14px;
+  transition: all 0.2s ease-out;
+}
